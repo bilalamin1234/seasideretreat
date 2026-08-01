@@ -20,29 +20,29 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
-    height: 100vh;
+     height: 100vh;
     align-items: center;
 }
 h1{
-    font-size: 65px;
+    font-size: 60px;
     color: white;
     margin-bottom: 10px;
 }
-.text .two{
+.text {
         font-size: 20px;
     color: white;
     margin-bottom: 20px;
     
 }
-.one{
+.two{
     font-size: 20px;
-    color: white;
-    margin-top: -15px;
-    margin-bottom: 35px;
+    color: rgb(170, 170, 170);
+   
 }
 .buttons{
     display: flex;
     justify-content: center;
+    column-gap: 10px;
     margin-bottom: 40px;
 }
 .btn1{
@@ -50,7 +50,7 @@ h1{
     background-color: #fbc028;
     padding: 15px 15px 15px 15px;
     border-radius: 8px;
-    margin-right: 10px;
+  
 }
 a{
     text-decoration: none;
@@ -68,9 +68,12 @@ a{
     color: white;
 }
 .icons{
-    display: flex;
-    justify-content: center;
+     display: flex;
+    justify-content: center; 
     margin-top: 30px;
+}
+.respon{
+    display: flex;
 }
 .icon1 {
     display: flex;
@@ -88,6 +91,8 @@ a{
     display: flex;
     color: white;
     font-size: 13px;
+    /* display: flex;
+    justify-content: center; */
 }
 i{
     color: white;
